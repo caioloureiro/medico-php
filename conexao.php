@@ -4,7 +4,7 @@ error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
 /*Start - CONEXÃO MySQLi PROCEDURAL*/
 $servername = "localhost";
 $username = "root";
-$password = "caio1234";
+$password = "";
 $dbname = "medico_php";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
