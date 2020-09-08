@@ -1,0 +1,193 @@
+body{
+margin:0;
+padding:0;
+background-color:rgba(243,243,243,1);
+font-family: "Open Sans";
+font-weight: normal;
+cursor: default;
+color: #555;
+outline: none;
+text-rendering: optimizeLegibility;
+}
+h1{
+font-size:2vw;
+text-align:center;
+}
+.pesquisa{
+width:20vw;
+height:auto;
+background-color:rgba(255,255,255,1);
+float:left;
+box-shadow: 0vw 0.1vw 0.223vw rgba(0,0,0,0.1);
+margin: 0.5vw;
+padding: 0.5vw;
+border-radius: 0.3vw;
+}
+.pesquisa h2{
+font-size:1.5vw;
+}
+.pesquisa input{
+width:100%;
+height:auto;
+line-height:3vw;
+padding:0.2vw;
+background-color:rgba(255,0,0,0);
+float:left;
+border: 0vw;
+border-bottom: 0.1vw solid rgba(200,200,200,1);
+margin-bottom: 0.5vw;
+}
+.pesquisa button{
+width:100%;
+height:100%;
+background-color:rgba(0, 112, 107,1);
+border:0.1vw solid rgba(0, 83, 73,1);
+border-radius:0.5vw;
+font-size:1.2vw;
+line-height:4vw;
+font-family:"Open Sans";
+color:white;
+cursor:pointer;
+transition:all 0.3s ease-in-out;
+}
+.pesquisa button:hover{
+background-color:rgba(100, 192, 171,1);
+border:0.1vw solid rgba(70, 162, 141,1);
+transition:all 0.3s ease-in-out;
+}
+.adicionar{
+width:5vw;
+height:5vw;
+background-color:rgba(255,0,0,0);
+float:left;
+background-image: url("img/add.svg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% auto;
+border-radius: 2.6vw;
+cursor: pointer;
+margin: 0.5vw;
+box-shadow: 0vw 0.1vw 0.223vw rgba(0,0,0,0.3);
+}
+.app{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+overflow:hidden;
+}
+.escurecer{
+width:100%;
+height:100%;
+background-color:rgba(0,0,0,0.8);
+position:fixed;
+top:0vw;
+left:0vw;
+background-image:url("img/fechar.svg");
+background-repeat:no-repeat;
+background-position:97vw 1vw;
+background-size:1.2vw auto;
+cursor:pointer;
+display:none;
+}
+.adicionarBOX{
+width:90vw;
+height:40vw;
+background-color:rgba(255,255,255,0.95);
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+border-radius:0.5vw;
+padding-left:3vw;
+padding-right:3vw;
+box-shadow:0.1vw 0.1vw 0.3vw rgba(0,0,0,0.2);
+display:none;
+}
+.adicionarBOX h2{
+width:100%;
+height:auto;
+line-height:3vw;
+font-size:1.5vw;
+background-color:rgba(255,0,0,0);
+float:left;
+}
+.adicionarBOX input{
+width:100%;
+height:auto;
+line-height:2vw;
+padding:0.2vw;
+background-color:rgba(255,0,0,0);
+float:left;
+border: 0vw;
+border-bottom: 0.1vw solid rgba(200,200,200,1);
+margin-bottom: 0.5vw;
+}
+.adicionarBOX select{
+width:100%;
+height:auto;
+line-height:2vw;
+padding:0.2vw;
+background-color:rgba(255,0,0,0);
+float:left;
+border: 0vw;
+border-bottom: 0.1vw solid rgba(200,200,200,1);
+margin-bottom: 0.5vw;
+}
+.adicionarBOX button{
+width:100%;
+height:100%;
+background-color:rgba(0, 112, 107,1);
+border:0.1vw solid rgba(0, 83, 73,1);
+border-radius:0.5vw;
+font-size:1.2vw;
+line-height:4vw;
+font-family:"Open Sans";
+color:white;
+cursor:pointer;
+transition:all 0.3s ease-in-out;
+}
+.adicionarBOX button:hover{
+background-color:rgba(100, 192, 171,1);
+border:0.1vw solid rgba(70, 162, 141,1);
+transition:all 0.3s ease-in-out;
+}
+.medico-card{
+width:20vw;
+height:auto;
+background-color:rgba(255,255,255,1);
+float:left;
+box-shadow: 0vw 0.1vw 0.223vw rgba(0,0,0,0.1);
+margin: 0.5vw;
+padding: 0.5vw;
+border-radius: 0.3vw;
+}
+.medico-card-linha{
+line-height:2vw;
+font-size:1.2vw;
+width:100%;
+float:left;
+}
+.medico-card-editar{
+width:1.2vw;
+height:1.2vw;
+background-image:url("img/editar.svg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:1.2vw auto;
+float:right;
+cursor:pointer;
+}
+.medico-card-excluir{
+width:3vw;
+height:1.2vw;
+background-image:url("img/excluir.svg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:1.2vw auto;
+float:right;
+cursor:pointer;
+}
+.on{
+display:block;
+}
